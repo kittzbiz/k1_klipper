@@ -6,23 +6,17 @@ chmod +x installer.sh
 ./installer.sh
 ```
 
+ВНИМАНИЕ! Обновляем клиппер лишь не много! Это далеко не последняя версия!
 
-## What this does:
-
-Creality shipped klipper that had not been updated since 2022. As such it was missing many patches and new features that had been added to the main repository. This will install the updated klipper for K1 found at
-
-https://github.com/K1-Klipper/klipper
-
-
-This is a community based effort to keep klipper up to date for the K1/Max
-
+Исходный реп: https://github.com/K1-Klipper/installer_script_k1_and_max
+Исправлена невероятная ошибка в пути к файлу virtual_pin.py
 
 ## Things to note:
 
-This installer will edit: <br>
+Скрипт вносит правки в эти файлы, будьте внимательны!: <br>
 1)Printer.cfg <br>
 2)gcode_macro.cfg <br>
 3)sensorless.cfg <br>
 
-if you run into issues please download backups of those files from creality's github found here:
+Если навернулось что-то - вас ждет личный ад в восстановлении дефолтных конфигов!
 https://github.com/CrealityOfficial/K1_Series_Klipper/tree/main/config
